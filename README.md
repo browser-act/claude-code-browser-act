@@ -6,8 +6,15 @@ Homepage: <https://www.browseract.com>
 
 ## Install
 
-```
+Add the marketplace:
+
+```text
 /plugin marketplace add browser-act/claude-code-browser-act
+```
+
+Then install the plugin:
+
+```text
 /plugin install browser-act@browseract
 ```
 
@@ -19,7 +26,7 @@ uv tool install browser-act-cli --python 3.12
 
 ## Update
 
-```
+```text
 /plugin marketplace update browseract
 ```
 

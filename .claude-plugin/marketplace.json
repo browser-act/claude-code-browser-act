@@ -1,0 +1,28 @@
+{
+  "name": "browseract",
+  "metadata": {
+    "description": "Official BrowserAct marketplace for Claude Code — browser automation plugins with stealth browsing and captcha solving."
+  },
+  "owner": {
+    "name": "BrowserAct",
+    "url": "https://www.browseract.com"
+  },
+  "plugins": [
+    {
+      "name": "browser-act",
+      "source": "./plugins/browser-act",
+      "description": "Browser automation for Claude Code via the browser-act CLI — stealth browsing, captcha solving, proxy support, Real Chrome control, network inspection, and structured page interaction.",
+      "homepage": "https://www.browseract.com",
+      "keywords": [
+        "browser",
+        "browser-automation",
+        "web-scraping",
+        "stealth",
+        "captcha",
+        "chrome",
+        "crawler",
+        "proxy"
+      ]
+    }
+  ]
+}

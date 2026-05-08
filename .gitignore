@@ -1,0 +1,13 @@
+.DS_Store
+*.textClipping
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+
+# Local tooling
+.claude/settings.local.json

@@ -1,0 +1,23 @@
+{
+  "name": "browser-act",
+  "version": "0.1.0",
+  "description": "Browser automation for Claude Code via the browser-act CLI — stealth browsing, captcha solving, proxy support, Real Chrome control, network inspection, and structured page interaction.",
+  "author": {
+    "name": "BrowserAct",
+    "url": "https://www.browseract.com"
+  },
+  "homepage": "https://www.browseract.com",
+  "repository": "https://github.com/browser-act/claude-code-browser-act",
+  "license": "MIT",
+  "keywords": [
+    "browser",
+    "browser-automation",
+    "web-scraping",
+    "stealth",
+    "captcha",
+    "chrome",
+    "playwright",
+    "crawler",
+    "proxy"
+  ]
+}

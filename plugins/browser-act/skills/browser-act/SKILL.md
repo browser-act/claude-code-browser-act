@@ -5,7 +5,7 @@ allowed-tools: Bash(browser-act:*)
 metadata:
   author: BrowserAct
   version: "2.0.0"
-  install: "uv tool install browser-act-cli --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --python 3.12"
+  install: "uv tool upgrade browser-act-cli || uv tool install browser-act-cli --python 3.12"
   homepage: "https://www.browseract.com"
   requires:
     runtime: "Python 3.12+, uv package manager"
@@ -30,7 +30,7 @@ interaction, data extraction & network capture, screenshots, automated human
 verification, anti-detection fingerprinting, persistent login sessions, built-in
 proxies, multi-account isolation, parallel browser sessions.
 
-### Features
+## Features
 
 - Anti-detection Chromium — fingerprint masking, bot-detection bypass
 - Stealth extraction — JS-rendered content fetch, advanced WebFetch/curl replacement
@@ -42,14 +42,9 @@ proxies, multi-account isolation, parallel browser sessions.
 - Universal compatibility — works with Cursor, Claude Code, Codex, Windsurf, etc.
 
 Install:
+
 ```bash
-uv tool upgrade browser-act-cli \
-  --index-url https://test.pypi.org/simple/ \
-  --extra-index-url https://pypi.org/simple \
-  --python 3.12 || uv tool install browser-act-cli \
-  --index-url https://test.pypi.org/simple/ \
-  --extra-index-url https://pypi.org/simple \
-  --python 3.12
+uv tool upgrade browser-act-cli || uv tool install browser-act-cli --python 3.12
 ```
 
 ## Start here
